@@ -1,0 +1,116 @@
+
+/*              ---- JOSEFIN_SLAB_GOOGLE_FONTS ---- */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+
+/*              ---- SACRAMENTO_GOOGLE_FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Sacramento&display=swap');
+
+/*              ---- WEB_PAGE_BODY_BACKGROUND ---- */
+body
+{
+    background-color: #DDFFAA;
+}
+
+/*              ---- H1_ELEMENT_HANDLER ---- */
+h1
+{
+    font-family: "Sacramento", 'Gill Sans', 'Gill Sans MT', 
+    Calibri, 'Trebuchet MS', sans-serif;
+    /* font-size: 50px; */
+    color: #000;
+    text-align: center;
+}
+
+/*              ---- H3_ELEMENT_HANDLER ---- */
+h3
+{
+    font-family: 'Courier New', Courier, monospace;
+    /* font-size: 20px; */
+    color: #000;
+}
+
+div
+{
+    /* Eruption Green. Color hex */
+    color: rgb( 0.0, 41.57, 22.75);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*              ---- MENU_BG_ID_HANDLER ---- */
+#menuBG
+{
+    width: 400px;
+    height: 470px;
+    margin: 10px auto;
+}
+
+/*              ---- FRM_MENU_ID_HANDLER ---- */
+#frmMenu
+{
+    width: 600px;
+    height: 200px;
+}
+
+/*              ---- TOTAL_PRICE_ID_HANDLER ---- */
+#totalPrice
+{
+    width: 200px;
+    height: 190px;
+    margin: 20px auto;
+    float: right;
+}
+
+/*              ---- PIZZA_SIZE_HANDLER ---- */
+/* Pins my "pizza size" on the left side of the Form */
+.left
+{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+/*              ---- VEGETABLES_TOPPING_HANDLER ---- 
+Pins my vegetable Toopings, on the left side of the form
+*/
+.center
+{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+/*              ---- Meats_TOPPING_HANDLER ---- */
+/* Pins my Meat "toppings" on the right side of the Form */
+.right
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+#showText
+{
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: left;
+}
+
+/*              ---- CART_HANDLER ---- */
+#cart
+{
+    top: 0;
+    margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+
+#orderBtn
+{
+    margin: 10px 0px 0px 100px;
+    width: 100px;
+    height: 40px;
+    display: block;
+    margin: 25px auto;
+    color: #008000;
+}

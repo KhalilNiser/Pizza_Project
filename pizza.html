@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Khalil Niser" content="author">
+    <!--                ---- CSS_LINK ---- -->
+    <link rel="stylesheet" type="text/css" href="/CSS/pizza.css">
+    <title>Pizza Drill Demo</title>
+</head>
+<body>
+
+    <!-- ---- MENU_BG_CLASS_DIV -->
+    <div id="menuBG">
+        <h1 style="margin: 0 0px 0 20px;">Pizza Drill Tutorial</h1>
+
+        <input id="orderBtn" type="button" onclick="getReceipt()"
+            value="Place Order">
+    
+        <!-- ---- MENU_FORM -->
+        <form id="frmMenu">
+
+            <!-- ---- MENU/LEFT_CLASS_DIV ---- LEFT_DIV-->
+            <div class="menu left">
+
+                <h3>Pizza Size:</h3>
+
+                <input class="size" type="radio" name="Size"
+                value="Personal Pizza">Personal Pizza<br>
+
+                <input class="size" type="radio" name="Size"
+                value="Small Pizza">Small Pizza<br>
+
+                <input class="size" type="radio" name="Size"
+                value="Medium Pizza">Medium Pizza<br>
+
+                <input class="size" type="radio" name="Size"
+                value="Large Pizza">Large Pizza<br>
+
+                <input class="size" type="radio" name="Size"
+                value="Extra Large Pizza">Extra Large Pizza<br>
+
+            <!-- ---- END_MENU/LEFT_CLASS_DIV ---- -->
+            </div>
+
+
+
+
+            <!-- ---- MENU/CENTER_CLASS_DIV ---- -->
+            <div class="menu center">
+                <h3>Vegetables:</h3>
+
+                <input class="toppings" type="checkbox" name="Topping"
+                value="Mushrooms">Mushrooms<br>
+
+                <input class="toppings" type="checkbox" name="Topping"
+                value="Onions">Onions<br>
+
+                <input class="toppings" type="checkbox" name="Topping"
+                value="Tomatoes">Tomatoes<br>
+
+                <input class="toppings" type="checkbox" name="Topping"
+                value="Olives">Olives<br>
+
+                <input class="toppings" type="checkbox" name="Topping"
+                value="Peppers">Peppers<br>
+                
+            <!-- END_MENU/CENTER_CLASS_DIV -->
+            </div>
+
+
+            <!-- ---- END_MENU/RIGHT_CLASS_DIV ---- RIGHT_DIV-->
+            <div class="menu right">
+
+                <h3>Meats:</h3>
+
+                <input class="toppings" type="checkbox" name="Topping"
+                    value="Pepperoni">Pepperoni<br>
+
+                <input class="toppings" type="checkbox" name="Topping"
+                    value="Sausage">Sausage<br>
+
+                <input class="toppings" type="checkbox" name="Topping"
+                    value="Bacon">Bacon<br>
+
+                <input class="toppings" type="checkbox" name="Topping"
+                    value="Salami">Salami<br>
+
+                <input class="toppings" type="checkbox" name="Topping"
+                    value="Ground Beef">Ground Beef<br>
+
+                <input class="toppings" type="checkbox" name="Topping"
+                    value="Anchovy">Anchovy<br>
+
+                <input class="toppings" type="checkbox" name="Topping"
+                    value="Chicken">Chicken<br>
+
+            <!-- END_MENU/RIGHT_CLASS_DIV -->
+            </div>
+
+            <!-- CART_CLASS_DIV CART_DIV-->
+            <div class="cart">
+                <div id="showText"></div>
+                <div id="totalPrice"></div>
+            </div>
+
+        <!-- ---- END_MENU_FORM -->
+        </form>
+
+    <!-- ---- END_MENU_BG_CLASS_DIV -->
+    </div>
+
+    <script type="text/javascript" src="/JS/pizza.js"></script>
+</body>
+</html>
